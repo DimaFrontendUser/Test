@@ -2,43 +2,43 @@
     font-family: "Segoe UI";
     src: url("../fonts/Segoe UI.ttf") format("ttf");
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
 }
 
 @font-face {
     font-family: "Segoe UI";
     src: url("../fonts/Segoe UI Bold.ttf") format("ttf");
     font-weight: 700;
-    font-style: normal
+    font-style: normal;
 }
 
 * {
     padding: 0;
     margin: 0;
-    border: 0
+    border: 0;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 :focus,
 :active {
-    outline: none
+    outline: none;
 }
 
 a:focus,
 a:active {
-    outline: none
+    outline: none;
 }
 
 nav,
 footer,
 header,
 aside {
-    display: block
+    display: block;
 }
 
 html,
@@ -57,43 +57,43 @@ body {
     background-image: url("../img/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #131316
+    background-color: #131316;
 }
 
 input,
 button,
 textarea {
-    font-family: inherit
+    font-family: inherit;
 }
 
 input::-ms-clear {
-    display: none
+    display: none;
 }
 
 button {
-    cursor: pointer
+    cursor: pointer;
 }
 
 button::-moz-focus-inner {
     padding: 0;
-    border: 0
+    border: 0;
 }
 
 a,
 a:visited {
-    text-decoration: none
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: none
+    text-decoration: none;
 }
 
 ul li {
-    list-style: none
+    list-style: none;
 }
 
 img {
-    vertical-align: top
+    vertical-align: top;
 }
 
 h1,
@@ -103,32 +103,32 @@ h4,
 h5,
 h6 {
     font-size: inherit;
-    font-weight: 400
+    font-weight: 400;
 }
 
 html,
 body {
-    height: 100%
+    height: 100%;
 }
 
 .wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100%
+    min-height: 100%;
 }
 
 .main {
-    flex: 1 0 auto
+    flex: 1 0 auto;
 }
 
 .footer {
-    flex: 0 0 auto
+    flex: 0 0 auto;
 }
 
 .container {
     max-width: 590px;
     margin: 0 auto;
-    padding: 0 15px
+    padding: 0 15px;
 }
 
 .button {
@@ -136,211 +136,212 @@ body {
     border-radius: 4px;
     letter-spacing: .06em;
     text-transform: uppercase;
-    color: #fff
+    color: #fff;
 }
 
 .button:hover {
     transition-duration: .5s;
-    background-color: aqua
+    background-color: aqua;
 }
 
 .title {
     font-size: 32px;
     line-height: 43px;
     text-align: center;
-    color: #fff
+    color: #fff;
 }
 
 .header__row {
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    margin-top: 20px;
 }
 
 .header__button {
     width: 180px;
-    height: 40px
+    height: 40px;
 }
 
 .footer__title {
     text-align: center;
     color: #fff;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
 .footer__social {
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 .footer__social-link {
-    margin-right: 20px
+    margin-right: 20px;
 }
 
 .footer__social-link:last-child {
-    margin: 0
+    margin: 0;
 }
 
 .footer__bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 0 26px 0
+    margin: 30px 0 26px 0;
 }
 
 .footer__contacts {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
 .footer__text {
     font-size: 13px;
     line-height: 17px;
-    color: rgba(255, 255, 255, .5)
+    color: rgba(255, 255, 255, .5);
 }
 
 .footer__contacts-link {
-    color: #fff
+    color: #fff;
 }
 
 .footer__contacts-link:hover {
     transition-duration: .4s;
-    color: aqua
+    color: aqua;
 }
 
 .new {
-    margin-bottom: 50px
+    margin-bottom: 50px;
 }
 
 .new__title {
-    padding: 40px 0 20px 0
+    padding: 40px 0 20px 0;
 }
 
 .new__top {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    grid-gap: 10px
+    grid-gap: 10px;
 }
 
 .new__top-card {
     background-color: rgba(255, 255, 255, .95);
     border-radius: 4px;
-    padding: 10px
+    padding: 10px;
 }
 
 .new__top-img {
-    max-width: 100%
+    max-width: 100%;
 }
 
 .new__description {
-    text-align: center
+    text-align: center;
 }
 
 .new__price {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 0
+    padding: 10px 0;
 }
 
 .new__price-old {
     text-decoration-line: line-through;
-    color: #d9d9d9
+    color: #d9d9d9;
 }
 
 .new__price-actual {
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-    color: #131316
+    color: #131316;
 }
 
 .new__top-button {
     width: 100%;
-    height: 40px
+    height: 40px;
 }
 
 .new__bottom {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    grid-gap: 10px
+    grid-gap: 10px;
 }
 
 .new__bottom-card {
     margin-top: 10px;
     background-color: rgba(255, 255, 255, .95);
     padding: 10px;
-    border-radius: 4px
+    border-radius: 4px;
 }
 
 .today {
-    margin-bottom: 60px
+    margin-bottom: 60px;
 }
 
 .today__title {
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
 .today__card {
     background: rgba(255, 255, 255, .95);
-    border-radius: 4px
+    border-radius: 4px;
 }
 
 .today__inner {
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .today__img-block {
-    flex: 0 0 45%
+    flex: 0 0 45%;
 }
 
 .today__img {
-    max-width: 100%
+    max-width: 100%;
 }
 
 .today__content {
     flex: 0 0 54%;
     padding: 30px 0;
-    padding-right: 65px
+    padding-right: 65px;
 }
 
 .today__ships-img {
-    padding-right: 8px
+    padding-right: 8px;
 }
 
 .today__ships-img:last-child {
     opacity: .1;
-    padding: 0
+    padding: 0;
 }
 
 .today__name {
-    padding: 10px 0 5px 0
+    padding: 10px 0 5px 0;
 }
 
 .today__text {
     font-size: 13px;
-    line-height: 17px
+    line-height: 17px;
 }
 
 .today__price {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 0
+    margin: 20px 0;
 }
 
 .today__price-old {
     text-decoration-line: line-through;
-    color: #d9d9d9
+    color: #d9d9d9;
 }
 
 .today__prive-actual {
-    font-weight: 700
+    font-weight: 700;
 }
 
 .today__price-discount {
@@ -348,39 +349,39 @@ body {
     background: red;
     border-radius: 4px;
     padding: 6px 12px;
-    font-weight: 700
+    font-weight: 700;
 }
 
 .today__discount {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .today__discount-text {
     font-size: 13px;
     line-height: 17px;
-    padding-bottom: 12px
+    padding-bottom: 12px;
 }
 
 .today__discount-text:last-child {
-    padding: 0
+    padding: 0;
 }
 
 .today__price-text {
     padding-bottom: 12px;
     font-size: 13px;
-    line-height: 17px
+    line-height: 17px;
 }
 
 .today__price-text:last-child {
     color: red;
-    padding: 0
+    padding: 0;
 }
 
 .today__buttons {
     display: flex;
     flex-direction: column;
-    padding-bottom: 35px
+    padding-bottom: 35px;
 }
 
 .today__button-top {
@@ -393,56 +394,56 @@ body {
     border-radius: 4px;
     width: 280px;
     height: 60px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 }
 
 .today__button-top:hover {
     transition-duration: .5s;
     background: linear-gradient(87.23deg, rgba(128, 26, 179, 0) -91.42%, #4C4CFF 99.79%);
-    border: 0
+    border: 0;
 }
 
 .today__button-bottom {
     display: block;
     margin: 0 auto;
     width: 280px;
-    height: 60px
+    height: 60px;
 }
 
 @media screen and (max-width: 600px) {
     .new__top {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 1fr)
+        grid-template-rows: repeat(3, 1fr);
     }
     .new__top-img {
         display: block;
         margin: 0 auto;
-        max-width: 100%
+        max-width: 100%;
     }
     .new__top-button {
         display: block;
         margin: 0 auto;
-        max-width: 300px
+        max-width: 300px;
     }
     .new__bottom {
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 1fr)
+        grid-template-rows: repeat(1, 1fr);
     }
     .today__inner {
         flex-direction: column;
-        padding: 10px
+        padding: 10px;
     }
     .today__ships {
         display: flex;
-        justify-content: center
+        justify-content: center;
     }
     .today__name {
-        text-align: center
+        text-align: center;
     }
     .today__text {
-        text-align: center
+        text-align: center;
     }
     .today__content {
-        padding-right: 0
+        padding-right: 0;
     }
 }
